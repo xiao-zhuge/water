@@ -1,4 +1,4 @@
-import{S as i}from"./StudyMenu-3f4674de.js";import{u as c}from"./useMarked-b2d6c03a.js";import{_ as l,r as p,a as u,p as d,e as m,b as f,c as y,d as r,f as h}from"./index-76527964.js";import"./commonjsHelpers-042e6b4d.js";const g=""+new URL("prototype-1edecc9d.png",import.meta.url).href,_=`
+import{S as i}from"./StudyMenu-f108a648.js";import{u as c}from"./useMarked-9234b812.js";import{_ as l,r as p,a as u,p as d,e as m,b as f,c as y,d as r,f as h}from"./index-c5ee65c8.js";import"./commonjsHelpers-042e6b4d.js";const g=""+new URL("prototype-1edecc9d.png",import.meta.url).href,_=`
 ## 原型和原型链
 
 ### 一. 函数原型 prototype
