@@ -1,4 +1,4 @@
-import{S as l}from"./StudyMenu-d2415448.js";import{_ as d,r as a,a as i,p as f,e as p,b as u,c as h,d as o,f as m}from"./index-d91bf992.js";import{u as _}from"./useMarked-9234b812.js";import"./jspdf.es.min-be76d17b.js";import"./commonjsHelpers-042e6b4d.js";const S=`
+import{S as l}from"./StudyMenu-fe944dfd.js";import{_ as d,r as a,a as i,p as f,e as p,b as u,c as h,d as o,f as m}from"./index-7cd5d3cb.js";import{u as _}from"./useMarked-9234b812.js";import"./jspdf.es.min-0f6c3efc.js";import"./commonjsHelpers-042e6b4d.js";const S=`
 ## 尺寸的百分比
 
 ### 参考系

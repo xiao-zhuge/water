@@ -1,4 +1,4 @@
-import{S as u}from"./StudyMenu-d2415448.js";import{_ as c,r as m,a as l,p as a,e as _,b as i,c as p,d as r,f}from"./index-d91bf992.js";import{u as x}from"./useMarked-9234b812.js";import"./commonjsHelpers-042e6b4d.js";const S=`
+import{S as u}from"./StudyMenu-fe944dfd.js";import{_ as c,r as m,a as l,p as a,e as _,b as i,c as p,d as r,f}from"./index-7cd5d3cb.js";import{u as x}from"./useMarked-9234b812.js";import"./commonjsHelpers-042e6b4d.js";const S=`
 ## Common JS
 > 简称CMJ，社区规范，目前只有 node 支持
 
