@@ -1,4 +1,4 @@
-import{S as a}from"./StudyMenu-f108a648.js";import{u as i}from"./useMarked-9234b812.js";import{_ as p,r as u,a as l,p as d,e as m,b as k,c as y,d as r,f as h}from"./index-c5ee65c8.js";import"./commonjsHelpers-042e6b4d.js";const g=`
+import{S as a}from"./StudyMenu-d2415448.js";import{_ as i,r as u,a as p,p as l,e as d,b as m,c as k,d as r,f as y}from"./index-d91bf992.js";import{u as f}from"./useMarked-9234b812.js";import"./commonjsHelpers-042e6b4d.js";const h=`
 ## Cookie
 
 ### 一. 组成
@@ -41,7 +41,7 @@ res.header('authorization', 6)
 \`\`\`
 
 > cookie中间键: cookie-parser
-`,f=`
+`,g=`
 ## 使用node的crypto模块实现对称加密
 
 \`\`\`js
@@ -73,7 +73,7 @@ module.exports = function () {
     };
 };
 \`\`\`
-`,_=""+new URL("cors-06baaf85.png",import.meta.url).href,x=`
+`,_=""+new URL("cors-06baaf85.png",import.meta.url).href,v=`
 ## 跨域
 
 ## jsonp
@@ -158,4 +158,4 @@ jsonp(http://172.168.0.1:5001/api/userlist)
 > 默认情况下，js只能获取部分基础响应头，如果要访问其他响应头内容，需要服务器添加白名单: **Access-Control-Expose-Headers: a,b,c**
 
 > 中间键：cors
-`;const C={cookie:g,symmetricEncryption:f,crossDomain:x},S={components:{StudyMenu:a},setup(){const o=u("cookie"),e=l([{key:"cookie",title:"Cookie"},{key:"symmetricEncryption",title:"对称加密"},{key:"crossDomain",title:"跨域"}]),c=d(()=>i(C[o.value]));return{menu:e,curSelected:o,mdContent:c}}},b={class:"page study-page"},v={class:"content"},A=["innerHTML"];function w(o,e,c,t,M,R){const s=m("StudyMenu");return k(),y("div",b,[r("div",v,[r("div",{class:"markdown-body",innerHTML:t.mdContent},null,8,A)]),h(s,{menu:t.menu,curSelected:t.curSelected,"onUpdate:curSelected":e[0]||(e[0]=n=>t.curSelected=n)},null,8,["menu","curSelected"])])}const H=p(S,[["render",w],["__scopeId","data-v-cab24208"]]);export{H as default};
+`;const x={cookie:h,symmetricEncryption:g,crossDomain:v},S={components:{StudyMenu:a},setup(){const o=u("cookie"),e=p([{key:"cookie",title:"Cookie"},{key:"symmetricEncryption",title:"对称加密"},{key:"crossDomain",title:"跨域"}]),c=l(()=>f(x[o.value]));return{menu:e,curSelected:o,mdContent:c}}},C={class:"page study-page"},b={class:"content"},w=["innerHTML"];function A(o,e,c,t,M,j){const s=d("StudyMenu");return m(),k("div",C,[r("div",b,[r("div",{class:"markdown-body",innerHTML:t.mdContent},null,8,w)]),y(s,{menu:t.menu,curSelected:t.curSelected,"onUpdate:curSelected":e[0]||(e[0]=n=>t.curSelected=n)},null,8,["menu","curSelected"])])}const H=i(S,[["render",A],["__scopeId","data-v-48abf35d"],["__file","/Users/zhuguanqun/Documents/personalWebProject/water-fe/water-fe/src/views/Server/Server.vue"]]);export{H as default};

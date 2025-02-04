@@ -1,4 +1,4 @@
-import{S as l}from"./StudyMenu-f108a648.js";import{u as d}from"./useMarked-9234b812.js";import"./jspdf.es.min-d3d6f200.js";import{_ as a,r as i,a as p,p as f,e as h,b as u,c as m,d as s,f as _}from"./index-c5ee65c8.js";import"./commonjsHelpers-042e6b4d.js";const x=`
+import{S as l}from"./StudyMenu-d2415448.js";import{_ as d,r as a,a as i,p as f,e as p,b as u,c as h,d as o,f as m}from"./index-d91bf992.js";import{u as _}from"./useMarked-9234b812.js";import"./jspdf.es.min-be76d17b.js";import"./commonjsHelpers-042e6b4d.js";const S=`
 ## 尺寸的百分比
 
 ### 参考系
@@ -12,7 +12,7 @@ import{S as l}from"./StudyMenu-f108a648.js";import{u as d}from"./useMarked-9234b
 3. padding：参考系的宽度
 4. border: 参考系的宽度
 5. margin: 参考系的宽度
-`,y=`
+`,x=`
 ## 属性值计算过程
     样式表：用户声明的属性+浏览器默认属性
 ### 一. 确定声明值
@@ -30,7 +30,7 @@ import{S as l}from"./StudyMenu-f108a648.js";import{u as d}from"./useMarked-9234b
 ### 四. 使用默认值
     对仍然没有值的属性，使用默认值
 **注意：设置值为 inherit（color:inherit）,直接使用继承，绕过第三步**
-`,k=`
+`,y=`
 ## 伪类选择器
 
 - E:not(s)  选中的E中 不包括s选中的元素
@@ -55,15 +55,15 @@ import{S as l}from"./StudyMenu-f108a648.js";import{u as d}from"./useMarked-9234b
 - E:disabled  disabled的元素
 - E:read-only  不可被编辑的元素
 - E:read-write  可被编辑的元素
-`,E=""+new URL("flexShrink1-2af1cc18.png",import.meta.url).href,S=""+new URL("flexShrink2-2f491ddd.png",import.meta.url).href,b=`
+`,k=""+new URL("flexShrink1-2af1cc18.png",import.meta.url).href,E=""+new URL("flexShrink2-2f491ddd.png",import.meta.url).href,b=`
 ## flex-shrink
 > 当空间不够时设置了flex-shrink的元素将被缩小，默认为0不缩小
 #### 1. 父宽600，自宽300，flex-shrink: 1 1 1,
 **子元素宽度都被缩小到了200**
-![](${E})
+![](${k})
 #### 2. 父宽600，box1 box2是200，box3是400，flex-shrink：1 1 3
 **子元素缩放后的宽度为175 175 250, 而不是160 160 280** 
-![](${S})
+![](${E})
 \`\`\`shell
 # 需要缩放的宽度的 200
 # 算法：加权平均数
@@ -76,4 +76,4 @@ import{S as l}from"./StudyMenu-f108a648.js";import{u as d}from"./useMarked-9234b
 # (400 * 3) / 1600 * 200 = 150px
 \`\`\`
 **加权时候，200不是盒模型宽度，而是真实内容宽度**
-`;const g={sizePercentage:x,styleCompute:y,pseudoClasses:k,flexShrink:b},C={components:{StudyMenu:l},setup(){const n=i("sizePercentage"),e=p([{key:"sizePercentage",title:"尺寸的百分比"},{key:"styleCompute",title:"属性计算"},{key:"pseudoClasses",title:"伪类选择器"},{key:"flexShrink",title:"flex-shrink"}]),o=f(()=>d(g[n.value]));return{menu:e,curSelected:n,mdContent:o}}},v={class:"page study-page"},M={class:"content"},w=["innerHTML"];function L(n,e,o,t,R,z){const r=h("StudyMenu");return u(),m("div",v,[s("div",M,[s("div",{class:"markdown-body",innerHTML:t.mdContent},null,8,w)]),_(r,{menu:t.menu,curSelected:t.curSelected,"onUpdate:curSelected":e[0]||(e[0]=c=>t.curSelected=c)},null,8,["menu","curSelected"])])}const T=a(C,[["render",L],["__scopeId","data-v-710ce5a4"]]);export{T as default};
+`;const g={sizePercentage:S,styleCompute:x,pseudoClasses:y,flexShrink:b},C={components:{StudyMenu:l},setup(){const n=a("sizePercentage"),e=i([{key:"sizePercentage",title:"尺寸的百分比"},{key:"styleCompute",title:"属性计算"},{key:"pseudoClasses",title:"伪类选择器"},{key:"flexShrink",title:"flex-shrink"}]),s=f(()=>_(g[n.value]));return{menu:e,curSelected:n,mdContent:s}}},v={class:"page study-page"},w={class:"content"},M=["innerHTML"];function L(n,e,s,t,z,P){const r=p("StudyMenu");return u(),h("div",v,[o("div",w,[o("div",{class:"markdown-body",innerHTML:t.mdContent},null,8,M)]),m(r,{menu:t.menu,curSelected:t.curSelected,"onUpdate:curSelected":e[0]||(e[0]=c=>t.curSelected=c)},null,8,["menu","curSelected"])])}const T=d(C,[["render",L],["__scopeId","data-v-94f2d187"],["__file","/Users/zhuguanqun/Documents/personalWebProject/water-fe/water-fe/src/views/CSS/CSS.vue"]]);export{T as default};

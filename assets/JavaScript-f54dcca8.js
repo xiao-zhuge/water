@@ -1,4 +1,4 @@
-import{S as i}from"./StudyMenu-f108a648.js";import{u as c}from"./useMarked-9234b812.js";import{_ as l,r as p,a as u,p as d,e as m,b as f,c as y,d as r,f as h}from"./index-c5ee65c8.js";import"./commonjsHelpers-042e6b4d.js";const g=""+new URL("prototype-1edecc9d.png",import.meta.url).href,_=`
+import{S as i}from"./StudyMenu-d2415448.js";import{_ as c,r as l,a as p,p as u,e as d,b as m,c as f,d as r,f as y}from"./index-d91bf992.js";import{u as h}from"./useMarked-9234b812.js";import"./commonjsHelpers-042e6b4d.js";const g=""+new URL("prototype-1edecc9d.png",import.meta.url).href,v=`
 ## 原型和原型链
 
 ### 一. 函数原型 prototype
@@ -18,7 +18,7 @@ import{S as i}from"./StudyMenu-f108a648.js";import{u as c}from"./useMarked-9234b
 **注意：箭头函数不能使用new 调用，箭头函数没有函数原型**
 
 ![](${g})
-`,v=`
+`,_=`
 ## this 指向
 ### 一. 在全局代码中使用this，指代全局对象
 ### 二. 在函数中使用this, 看函数是如何调用的
@@ -100,7 +100,7 @@ getA(); // 10
 在Chrome中，有很多任务队列，其中有延时队列、交互队列、微队列
 
 > 优先级：**微队列 > 交互队列 > 延时队列**
-`,x=""+new URL("eventLoopNode-3d3f9c01.png",import.meta.url).href,R=`
+`,x=""+new URL("eventLoopNode-3d3f9c01.png",import.meta.url).href,w=`
 ## Node事件循环
 
 ![](${x})
@@ -166,7 +166,7 @@ getA(); // 10
 - 其他原始类型要先转成数字再比较
 - NaN与谁比较都是false
 - 对象比较要先转成原始类型再比较
-`,w=`
+`,R=`
 ## 执行上下文
 > 一个函数执行前会创建一个内存空间，该空间中包含函数执行所需要的数据，该空间中主要包含this和VO变量对象
 ### 一. this指向
@@ -194,18 +194,18 @@ function t1() {
 t1();
 \`\`\`
 ![](${$})
-`,V=""+new URL("Promise1-a8212b78.png",import.meta.url).href,z=""+new URL("Promise2-da0f3668.png",import.meta.url).href,M=`
+`,z=""+new URL("Promise1-a8212b78.png",import.meta.url).href,V=""+new URL("Promise2-da0f3668.png",import.meta.url).href,M=`
 ## Promise
 ### Promise A+规范
 1. 所有的异步场景都可以看作是一个异步任务，每个异步任务在js中应该是一个对象，该对象被称为Promise对象
 2. 每个任务对象都应该有两个阶段、三个状态
 3. resolve: 挂起 -> 完成；reject: 挂起 -> 失败
 
-![](${V})
+![](${z})
 
 4. 完成的后续处理叫onFulfilled，失败的后续处理叫onRejected
 
-![](${z})
+![](${V})
 ### Promise 链式调用
 - then方法必定返回一个新的Promise（后续处理也是一个新的任务）
 - 新任务的状态取决于后续处理
@@ -353,4 +353,4 @@ function run(generatorFunc) {
 #### 正常数字
 > 指数最大为 2046
 能表示的最大数字是：0  11111111110  11111111......
-`;const F={prototype:_,thisFor:v,domSize:O,eventLoop:L,eventLoopNode:R,dataOperation:P,context:w,actionScope:U,promise:M,iterator:A,generator:C,dataStorage:I},T={components:{StudyMenu:i},setup(){const o=p("prototype"),e=u([{key:"prototype",title:"原型和原型链"},{key:"thisFor",title:"this指向"},{key:"domSize",title:"尺寸和位置"},{key:"eventLoop",title:"事件循环"},{key:"eventLoopNode",title:"Node事件循环"},{key:"dataOperation",title:"类型转换"},{key:"context",title:"执行上下文"},{key:"actionScope",title:"作用域链"},{key:"promise",title:"Promise"},{key:"iterator",title:"迭代器"},{key:"generator",title:"生成器"},{key:"dataStorage",title:"数据存储"}]),n=d(()=>c(F[o.value],!0));return{menu:e,curSelected:o,mdContent:n}}},J={class:"page study-page"},B={class:"content"},G=["innerHTML"];function D(o,e,n,t,E,H){const s=m("StudyMenu");return f(),y("div",J,[r("div",B,[r("div",{class:"markdown-body",innerHTML:t.mdContent},null,8,G)]),h(s,{menu:t.menu,curSelected:t.curSelected,"onUpdate:curSelected":e[0]||(e[0]=a=>t.curSelected=a)},null,8,["menu","curSelected"])])}const X=l(T,[["render",D],["__scopeId","data-v-ce55099d"]]);export{X as default};
+`;const F={prototype:v,thisFor:_,domSize:O,eventLoop:L,eventLoopNode:w,dataOperation:P,context:R,actionScope:U,promise:M,iterator:A,generator:C,dataStorage:I},J={components:{StudyMenu:i},setup(){const o=l("prototype"),e=p([{key:"prototype",title:"原型和原型链"},{key:"thisFor",title:"this指向"},{key:"domSize",title:"尺寸和位置"},{key:"eventLoop",title:"事件循环"},{key:"eventLoopNode",title:"Node事件循环"},{key:"dataOperation",title:"类型转换"},{key:"context",title:"执行上下文"},{key:"actionScope",title:"作用域链"},{key:"promise",title:"Promise"},{key:"iterator",title:"迭代器"},{key:"generator",title:"生成器"},{key:"dataStorage",title:"数据存储"}]),n=u(()=>h(F[o.value],!0));return{menu:e,curSelected:o,mdContent:n}}},T={class:"page study-page"},B={class:"content"},D=["innerHTML"];function G(o,e,n,t,E,H){const s=d("StudyMenu");return m(),f("div",T,[r("div",B,[r("div",{class:"markdown-body",innerHTML:t.mdContent},null,8,D)]),y(s,{menu:t.menu,curSelected:t.curSelected,"onUpdate:curSelected":e[0]||(e[0]=a=>t.curSelected=a)},null,8,["menu","curSelected"])])}const X=c(J,[["render",G],["__scopeId","data-v-2a5875fa"],["__file","/Users/zhuguanqun/Documents/personalWebProject/water-fe/water-fe/src/views/JavaScript/JavaScript.vue"]]);export{X as default};
